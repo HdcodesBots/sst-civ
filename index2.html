@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Civics Project</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+	</head>
+	<body class="demo-1 loading">
+		<main>
+			<div class="message">Some message for mobile (if needed).</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 href="index.html" class="frame__title">Civics Project</h1>
+					<p class="frame__tagline">Harshil Das</a></p>
+				</div>
+				<div class="frame__links">
+				
+				</div>
+				<div class="frame__demos">
+					<a href="index.html" class="frame__demo frame__demo--current">Types</a>
+					<a href="index2.html" class="frame__demo">About Fundamental Rights</a>
+					<a href="index3.html" class="frame__demo">About Fundamental Duties</a>
+				</div>
+			</div>
+			<div class="content">
+				<div id="rgbKineticSlider" class="rgbKineticSlider"></div>
+				<nav>
+			     
+                </nav>
+            
+			</div>
+		</main>
+
+		<script src="js/libs/imagesLoaded.pkgd.min.js"></script>
+		<script src="js/libs/pixi.min.js"></script>
+		<script src="js/libs/pixi-filters.min.js"></script>
+		<script src="js/libs/TweenMax.min.js"></script>
+		<script src="js/rgbKineticSlider.js"></script>
+		<script>
+            
+            // images setup
+			const images = [
+			    "img/color-01.jpg",
+			   
+			
+			];
+            
+            // content setup
+			const texts = [
+			    ["Fundamental.Rights", "About (scroll down)"],
+			    
+			    
+			]
+
+			rgbKineticSlider = new rgbKineticSlider({
+
+			    slideImages: images, // array of images > must be 1920 x 1080
+			    itemsTitles: texts, // array of titles / subtitles
+
+			    backgroundDisplacementSprite: 'img/map-9.jpg', // slide displacement image 
+			    cursorDisplacementSprite: 'img/displace-circle.png', // cursor displacement image
+
+			    cursorImgEffect : true, // enable cursor effect
+			    cursorTextEffect : false, // enable cursor text effect
+			    cursorScaleIntensity : 0.65, // cursor effect intensity
+			    cursorMomentum : 0.14, // lower is slower
+
+			    swipe: true, // enable swipe
+			    swipeDistance : window.innerWidth * 0.4, // swipe distance - ex : 580
+			    swipeScaleIntensity: 2, // scale intensity during swipping
+
+			    slideTransitionDuration : 1, // transition duration
+			    transitionScaleIntensity : 30, // scale intensity during transition
+			    transitionScaleAmplitude : 160, // scale amplitude during transition
+
+			    nav: true, // enable navigation
+			    navElement: '.main-nav', // set nav class
+			    
+			    imagesRgbEffect : false, // enable img rgb effect
+			    imagesRgbIntensity : 0.9, // set img rgb intensity
+			    navImagesRgbIntensity : 80, // set img rgb intensity for regular nav 
+
+			    textsDisplay : true, // show title
+			    textsSubTitleDisplay : true, // show subtitles
+			    textsTiltEffect : true, // enable text tilt
+			    googleFonts : ['Playfair Display:700', 'Roboto:400'], // select google font to use
+			    buttonMode : false, // enable button mode for title
+			    textsRgbEffect : true, // enable text rgb effect
+			    textsRgbIntensity : 0.03, // set text rgb intensity
+			    navTextsRgbIntensity : 15, // set text rgb intensity for regular nav
+
+			    textTitleColor : 'white', // title color
+			    textTitleSize : 125, // title size
+			    mobileTextTitleSize : 125, // title size
+			    textTitleLetterspacing : 3, // title letterspacing
+
+			    textSubTitleColor : 'white', // subtitle color ex : 0x000000
+			    textSubTitleSize : 21, // subtitle size
+			    mobileTextSubTitleSize : 21, // mobile subtitle size
+			    textSubTitleLetterspacing : 2, // subtitle letter spacing
+			    textSubTitleOffsetTop : 90, // subtitle offset top
+			    mobileTextSubTitleOffsetTop : 90, // mobile subtitle offset top
+			});
+		
+		</script>
+		<div>class= "contaier2">
+		<div class="container">
+			
+			<h1></h1>
+            <h2>
+				1. The right to equality includes equality before the law, the prohibition of discrimination on grounds of religion, race, caste, sexual orientation, gender or gender identity and/or place of birth, equality of opportunity in matters of employment, the abolition of untouchability and abolition of titles.
+<br>
+2. The right to freedom includes freedom of speech and expression, assembly, association or union or cooperatives, movement, residence, and right to practice any profession or occupation.
+<br>
+3. The right against exploitation prohibits all forms of forced labour, child labour and trafficking of human beings. Children under age of 14 are not allowed to work.
+<br>
+4. The right to freedom of religion includes freedom of conscience and free profession, practice, and propagation of religion, freedom to manage religious affairs, freedom from certain taxes and freedom from religious instructions in certain educational institutes.
+<br>
+5. The Cultural and educational Rights preserve the right of any section of citizens to conserve their culture, language or script, and right of minorities to establish and administer educational institutions of their choice.
+<br>
+6. The right to constitutional remedies is present for enforcement of fundamental rights. B. R. Ambedkar declared the right to constitutional remedies "the heart and soul" of the Indian constitution.
+<br>
+The right to privacy is an intrinsic part of Article 21 (the Right to Freedom) that protects the life and liberty of the citizens.
+
+The right to privacy is the newest right assured by the Supreme Court of India. It assures the people's data and personal security.
+
+Fundamental rights for Indians have also been aimed at overturning the inequalities of pre-independence social practices. Specifically, they have also been used to abolish untouchability and thus prohibit discrimination on the grounds of religion, race, caste, gender or place of birth. They also forbid trafficking of human beings and forced labour (a crime). They also protect cultural and educational rights of religious establishments. Right to property was changed from fundamental right to legal right.
+			
+        </div>
+        
+			
+	</body>
+</html>

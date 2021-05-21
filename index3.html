@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Civics Project</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+	</head>
+	<body class="demo-1 loading">
+		<main>
+			<div class="message">Some message for mobile (if needed).</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Civics Project</h1>
+					<p class="frame__tagline">Harshil Das</a></p>
+				</div>
+				<div class="frame__links">
+				
+				</div>
+				<div class="frame__demos">
+						<a href="index.html" class="frame__demo frame__demo--current">Types</a>
+					<a href="index2.html" class="frame__demo">About Fundamental Rights</a>
+					<a href="index3.html" class="frame__demo">About Fundamental Duties</a>
+				</div>
+			</div>
+			<div class="content">
+				<div id="rgbKineticSlider" class="rgbKineticSlider"></div>
+				<nav>
+			      
+                </nav>
+            
+			</div>
+		</main>
+
+		<script src="js/libs/imagesLoaded.pkgd.min.js"></script>
+		<script src="js/libs/pixi.min.js"></script>
+		<script src="js/libs/pixi-filters.min.js"></script>
+		<script src="js/libs/TweenMax.min.js"></script>
+		<script src="js/rgbKineticSlider.js"></script>
+		<script>
+            
+            // images setup
+			const images = [
+			  
+			    "img/color-02.jpg",
+			
+			];
+            
+            // content setup
+			const texts = [
+			  
+			    
+			    ["Fundamental.Duties", "About(scroll down)"],
+			]
+
+			rgbKineticSlider = new rgbKineticSlider({
+
+			    slideImages: images, // array of images > must be 1920 x 1080
+			    itemsTitles: texts, // array of titles / subtitles
+
+			    backgroundDisplacementSprite: 'img/map-9.jpg', // slide displacement image 
+			    cursorDisplacementSprite: 'img/displace-circle.png', // cursor displacement image
+
+			    cursorImgEffect : true, // enable cursor effect
+			    cursorTextEffect : false, // enable cursor text effect
+			    cursorScaleIntensity : 0.65, // cursor effect intensity
+			    cursorMomentum : 0.14, // lower is slower
+
+			    swipe: true, // enable swipe
+			    swipeDistance : window.innerWidth * 0.4, // swipe distance - ex : 580
+			    swipeScaleIntensity: 2, // scale intensity during swipping
+
+			    slideTransitionDuration : 1, // transition duration
+			    transitionScaleIntensity : 30, // scale intensity during transition
+			    transitionScaleAmplitude : 160, // scale amplitude during transition
+
+			    nav: true, // enable navigation
+			    navElement: '.main-nav', // set nav class
+			    
+			    imagesRgbEffect : false, // enable img rgb effect
+			    imagesRgbIntensity : 0.9, // set img rgb intensity
+			    navImagesRgbIntensity : 80, // set img rgb intensity for regular nav 
+
+			    textsDisplay : true, // show title
+			    textsSubTitleDisplay : true, // show subtitles
+			    textsTiltEffect : true, // enable text tilt
+			    googleFonts : ['Playfair Display:700', 'Roboto:400'], // select google font to use
+			    buttonMode : false, // enable button mode for title
+			    textsRgbEffect : true, // enable text rgb effect
+			    textsRgbIntensity : 0.03, // set text rgb intensity
+			    navTextsRgbIntensity : 15, // set text rgb intensity for regular nav
+
+			    textTitleColor : 'white', // title color
+			    textTitleSize : 125, // title size
+			    mobileTextTitleSize : 125, // title size
+			    textTitleLetterspacing : 3, // title letterspacing
+
+			    textSubTitleColor : 'white', // subtitle color ex : 0x000000
+			    textSubTitleSize : 21, // subtitle size
+			    mobileTextSubTitleSize : 21, // mobile subtitle size
+			    textSubTitleLetterspacing : 2, // subtitle letter spacing
+			    textSubTitleOffsetTop : 90, // subtitle offset top
+			    mobileTextSubTitleOffsetTop : 90, // mobile subtitle offset top
+			});
+		
+		</script>
+		<div class="container">
+            <h3>
+				The fundamental duties of citizens were added to the constitution by the 42nd
+				Amendment in 1976 under Article 51A part 4A, upon the recommendations of
+				the Swaran Singh Committee. Initially while drafting the Constitution of India
+				fundamental duties were not part of Constitution of India. The fundamental duties were
+				inspired by constitution of USSR (now Russia).
+				Originally ten in number, the fundamental duties were increased to eleven by the
+				86th Amendment in 2002, which added a duty on every parent or guardian to ensure
+				that their child or ward was provided opportunities for education between the ages of six
+				and fourteen years. The other fundamental duties obligate all citizens to respect the
+				national symbols of India, including the constitution, to cherish its heritage, preserve
+				its composite culture and assist in its defence. They also obligate all Indians to promote
+				the spirit of common brotherhood, protect the environment and public property,
+				develop scientific temper, abjure violence, and strive towards excellence in all spheres
+				of life. The violation of fundamental duties is not punishable offense unless it is backed
+				by Legislative enactments like Prevention of Insults to National Honour Act, 1971,
+				Forest Act, Environment Act, Pollution Act and others. Supreme court has ruled that
+				these fundamental duties can also help the court to decide the constitutionality of a law
+				passed by the legislature. There is reference to such duties in international instruments
+				such as the Universal Declaration of Human Rights and International Covenant on Civil
+				and Political Rights.
+				The fundamental duties noted in the constitution are as follows:
+				It shall be the duty of every citizen of India —
+				<br><br>
+				a) To abide by the Constitution and respect its ideals and institutions, the
+				National Flag and the National Anthem;
+				<br><br>
+				b) To cherish and follow the noble ideals which inspired our national struggle
+				for freedom;
+				<br><br>
+				c) To uphold and protect the sovereignty, unity and integrity of India;
+				<br><br>
+				d) To defend the country and render national service when called upon to do
+				so;
+				<br><br>
+				e) To promote harmony and the spirit of common brotherhood amongst all
+				the people of India transcending religious, linguistic and regional or
+				sectional diversities; to renounce practices derogatory to the dignity of
+				women;
+				<br><br>
+				f) To value and preserve the rich heritage of our composite culture;
+				<br><br>
+				g) To protect and improve the natural environment including forests, lakes,
+				rivers, wildlife and to have compassion for living creatures;
+				<br><br>
+				h) To develop the scientific temper, humanism and the spirit of inquiry and
+				reform;
+				<br><br>
+				i) To safeguard public property and to abjure violence;
+				<br><br>
+				j) To strive towards excellence in all spheres of individual and collective
+				activity so that the nation constantly rises to higher levels of endeavour
+				and achievement;
+				<br><br>
+				k) Who is a parent or guardian, to provide opportunities for education to his
+				child, or as the case may be, ward between the age of six to fourteen years.
+				The duty was included in the list of fundamental duties by 86th Amendment
+				to the constitution of India in the year 2002.
+				<br>
+			<h4>(the above statements are issued by the government of India)</h4>
+           
+        </div>
+			
+	</body>
+</html>
